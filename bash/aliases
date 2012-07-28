@@ -24,7 +24,7 @@ alias md='mkdir -p'
 alias rd='rm -rf'
 
 function take () {
-  mkdir $1
+  mkdir -p $1
   cd $1
 }
 
