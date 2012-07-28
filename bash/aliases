@@ -40,3 +40,8 @@ alias po='git push origin'
 alias nd='node-dev'
 alias tm='top -o vsize'
 alias tu='top -o cpu'
+
+# Music
+function play () {
+  open -a "vlc" ~/Music/playlists/$1.m3u
+}
