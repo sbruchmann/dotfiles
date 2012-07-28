@@ -1,0 +1,42 @@
+#!/bin/bash
+
+# Applications
+alias st="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
+alias vim='vim -N'
+alias vlc='/Applications/VLC.app/Contents/MacOS/VLC --crop=16:10'
+
+# Bash Management
+alias cls='clear'
+alias ea='vim -N ~/bin/dotfiles/bash/aliases'
+alias ec='vim -N ~/bin/dotfiles/bash/config'
+alias ee='vim -N ~/bin/dotfiles/bash/env'
+alias rp='source ~/.bashrc'
+
+# Directory Management
+alias ..='cd ../'
+alias ...=../'cd ../'
+alias cdc='cd ~/code/'
+alias cdd='cd -'
+alias cdw='cd ~/Workspace/'
+alias ll='ls -AGhl'
+alias ls='ls -AGh'
+alias md='mkdir -p'
+alias rd='rm -rf'
+
+function take () {
+  mkdir $1
+  cd $1
+}
+
+# Git
+alias cm='git checkout master'
+alias co='git checkout'
+alias gst='git status'
+alias log='git log'
+alias pm='git push origin master'
+alias po='git push origin'
+
+# Misc
+alias nd='node-dev'
+alias tm='top -o vsize'
+alias tu='top -o cpu'
