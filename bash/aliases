@@ -2,7 +2,6 @@
 
 # Applications
 alias st="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
-alias vim='vim -N'
 alias vlc='/Applications/VLC.app/Contents/MacOS/VLC --crop=16:10'
 
 # Bash Management
