@@ -10,6 +10,7 @@ set autoindent
 set autoread
 set expandtab
 set encoding=utf-8
+set foldenable
 set hlsearch
 set ignorecase
 set nocompatible
@@ -23,6 +24,7 @@ set showcmd
 set showmatch
 set showmode
 set smartcase
+set splitbelow
 set ruler
 set scrolloff=4
 set smarttab
@@ -32,6 +34,6 @@ set tabstop=2
 set wrap
 
 set wildmenu
-set wildmode:list=longest
+set wildmode=list:longest
 
 imap <TAB> <C-N>
