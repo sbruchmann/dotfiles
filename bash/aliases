@@ -28,12 +28,21 @@ function take () {
 }
 
 # Git
-alias cm='git checkout master'
-alias co='git checkout'
+alias gbc='git checkout -b'
+alias gbd='git branch -D'
+alias gci='git commit -vs'
+alias gcm='git checkout master'
+alias gco='git checkout'
+alias glg='git log --pretty=format:"%an: %s (%h)"'
+alias gpl='git pull'
+alias gpm='git push origin master'
+alias gpo='git push origin'
+alias gps='git push'
 alias gst='git status'
-alias log='git lg'
-alias pm='git push origin master'
-alias po='git push origin'
+
+function ggrep () {
+  git grep $1 $(git log -g --pretty=format:%h -S$1)
+}
 
 # Misc
 alias nd='node-dev'

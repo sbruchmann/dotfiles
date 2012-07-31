@@ -1,13 +1,3 @@
-[alias]
-  bc = checkout -b
-  bd = branch -D
-  co = checkout
-  ci = commit -s
-  lg = log --pretty=format:'%an: %s (%h)'
-  pl = pull
-  ps = push
-  st = status
-
 [apply]
   whitespace = fix
 
