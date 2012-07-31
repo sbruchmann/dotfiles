@@ -31,7 +31,7 @@ function take () {
 alias cm='git checkout master'
 alias co='git checkout'
 alias gst='git status'
-alias log='git log'
+alias log='git lg'
 alias pm='git push origin master'
 alias po='git push origin'
 
