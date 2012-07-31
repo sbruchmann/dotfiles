@@ -2,6 +2,7 @@ syntax on
 colorscheme desert
 set background=dark
 
+filetype on
 filetype indent on
 filetype plugin on
 
@@ -23,10 +24,14 @@ set showmatch
 set showmode
 set smartcase
 set ruler
-
-imap <TAB> <C-N>
-
+set scrolloff=4
 set smarttab
 set shiftwidth=2
+set title
 set tabstop=2
 set wrap
+
+set wildmenu
+set wildmode:list=longest
+
+imap <TAB> <C-N>
