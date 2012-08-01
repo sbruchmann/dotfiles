@@ -11,6 +11,7 @@ set autoread
 set expandtab
 set encoding=utf-8
 set foldenable
+set hidden
 set hlsearch
 set ignorecase
 set nocompatible
