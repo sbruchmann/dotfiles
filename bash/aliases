@@ -8,7 +8,7 @@ alias vlc='/Applications/VLC.app/Contents/MacOS/VLC --crop=16:10'
 alias ea='vim -N ~/bin/dotfiles/bash/aliases'
 alias ec='vim -N ~/bin/dotfiles/bash/config'
 alias ee='vim -N ~/bin/dotfiles/bash/env'
-alias rp='source ~/.bashrc'
+alias sb='source ~/.bashrc'
 
 # Directory Management
 alias ..='cd ../'
@@ -44,6 +44,7 @@ function ggrep () {
 }
 
 # Misc
+alias ev='vim ~/bin/dotfiles/vimrc'
 alias nd='node-dev'
 alias tm='top -o vsize'
 alias tu='top -o cpu'
