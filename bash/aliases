@@ -55,5 +55,5 @@ alias tu='top -o cpu'
 
 # Music
 function play () {
-  open -a "vlc" ~/Music/playlists/$1.m3u
+  open -a "vlc" ~/Music/playlists/$1.m3u --args --no-random
 }
