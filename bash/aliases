@@ -22,6 +22,10 @@ alias ls='ls -AGh'
 alias md='mkdir -p'
 alias rd='rm -rf'
 
+# Show/hide hidden files in Finder
+alias shf="defaults write com.apple.Finder AppleShowAllFiles -bool true && killall Finder"
+alias hhf="defaults write com.apple.Finder AppleShowAllFiles -bool false && killall Finder"
+
 function take () {
   mkdir -p $1
   cd $1
@@ -49,6 +53,10 @@ alias ev='vim ~/bin/dotfiles/vimrc'
 alias nd='node-dev'
 alias tm='top -o vsize'
 alias tu='top -o cpu'
+
+# Hide/show all desktop icons (useful when screencasting)
+alias hdi="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
+alias sdi="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
 
 # Music
 function play () {
