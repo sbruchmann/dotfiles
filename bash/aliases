@@ -38,6 +38,7 @@ function take () {
 alias gbc='git checkout -b'
 alias gbd='git branch -D'
 alias gci='git commit -vs'
+alias gcl='git clone'
 alias gcm='git checkout master'
 alias gco='git checkout'
 alias glg='git log --pretty=format:"%an: %s (%h)"'
