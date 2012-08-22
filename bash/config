@@ -1,5 +1,12 @@
 #!/bin/bash
 
+
+# History
+HISTCONTROL=ignoredups:ignorespace
+HISTSIZE=1000
+HISTFILESIZE=2000
+shopt -s histappend
+
 if [ -f /usr/local/git/contrib/completion/git-completion.bash ]; then
   . /usr/local/git/contrib/completion/git-completion.bash
 fi
