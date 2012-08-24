@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Autocompletion
+
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+    . `brew --prefix`/etc/bash_completion
+fi
+
+source ./completions/git-flow-completion.bash
 
 # History
 HISTCONTROL=ignoredups:ignorespace
