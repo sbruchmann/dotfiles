@@ -23,3 +23,6 @@ if [ -f /opt/local/etc/bash_completion ]; then
 fi
 
 PS1='\[\033[32m\]\u\[\033[00m\]:\[\033[34m\]\w\[\033[31m\]$(__git_ps1)\[\033[00m\]\n→ '
+
+# Autocorrect typos in path names when using `cd`
+shopt -s cdspell
