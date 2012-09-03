@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Enable aliases to be sudo'ed
+alias sudo='sudo '
+
 # Applications
 alias st="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
 
