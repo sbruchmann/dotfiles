@@ -62,8 +62,8 @@ alias tm='top -o vsize'
 alias tu='top -o cpu'
 
 # Hide/show all desktop icons (useful when screencasting)
-alias hdi="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
-alias sdi="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
+alias hdf="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
+alias sdf="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
 
 # Music
 function play () {
