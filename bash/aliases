@@ -38,6 +38,7 @@ function take () {
 }
 
 # Git
+alias git='hub'
 alias gbc='git checkout -b'
 alias gbd='git branch -D'
 alias gci='git commit -vs'
