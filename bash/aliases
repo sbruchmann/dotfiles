@@ -26,7 +26,7 @@ alias cdw='cd ~/Workspace/'
 alias ll='ls -AFGhl'
 alias ls='ls -AFGh'
 alias md='mkdir -p'
-alias rd='rm -rf'
+alias rm='rm -i'
 
 # Show/hide hidden files in Finder
 alias shf="defaults write com.apple.Finder AppleShowAllFiles -bool true && killall Finder"
