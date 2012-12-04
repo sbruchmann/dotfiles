@@ -1,42 +1,70 @@
 {
-  "auto_complete_commit_on_tab": true,
-  "bold_folder_labels": true,
-  "color_scheme": "Packages/User/Monokai Soda.tmTheme",
-  "default_line_ending": "unix",
-  "draw_indent_guides": true,
-  "draw_white_space": "selection",
-  "ensure_newline_at_eof_on_save": true,
-  "font_face": "Meslo LG L DZ",
-  "font_options":
-  [
-    "no_italic"
-  ],
-  "font_size": 14.0,
-  "highlight_line": true,
-  "highlight_modified_tabs": true,
-  "ignored_packages":
-  [
-  ],
-  "indent_guide_options":
-  [
-    "draw_normal",
-    "draw_active"
-  ],
-  "margin": 0,
-  "match_brackets_angle": true,
-  "open_files_in_new_window": false,
-  "preview_on_click": false,
-  "rulers":
-  [
-    80
-  ],
-  "scroll_past_end": true,
-  "spell_check": false,
-  "tab_size": 2,
-  "theme": "Soda Dark.sublime-theme",
-  "translate_tabs_to_spaces": true,
-  "trim_trailing_white_space_on_save": true,
-
-  "folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", "node_modules"],
-  "file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db", "*.sublime*"]
+	"auto_complete_commit_on_tab": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/Monokai Soda.tmTheme",
+	"default_line_ending": "unix",
+	"draw_indent_guides": true,
+	"draw_white_space": "selection",
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime*"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules"
+	],
+	"font_face": "Meslo LG L DZ",
+	"font_options":
+	[
+		"no_italic"
+	],
+	"font_size": 14.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"margin": 0,
+	"match_brackets_angle": true,
+	"open_files_in_new_window": false,
+	"preview_on_click": false,
+	"rulers":
+	[
+		80
+	],
+	"scroll_past_end": true,
+	"spell_check": false,
+	"tab_size": 2,
+	"theme": "Soda Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
