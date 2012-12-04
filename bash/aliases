@@ -33,7 +33,7 @@ alias shf="defaults write com.apple.Finder AppleShowAllFiles -bool true && killa
 alias hhf="defaults write com.apple.Finder AppleShowAllFiles -bool false && killall Finder"
 
 function take () {
-  mkdir -p $1
+  md $1
   cd $1
 }
 
