@@ -66,7 +66,9 @@ alias tu='top -o cpu'
 
 # NPM
 alias ni='npm install --save'
-alias nd='npm uninstall --save'
+alias nid='npm install --save-dev'
+alias nu='npm uninstall --save'
+alias nud='npm uninstall --save-dev'
 
 # Hide/show all desktop icons (useful when screencasting)
 alias hdf="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
