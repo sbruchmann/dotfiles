@@ -63,6 +63,7 @@ alias nd='node-dev'
 alias nw='/Applications/node-webkit.app/Contents/MacOS/node-webkit'
 alias tm='top -o vsize'
 alias tu='top -o cpu'
+alias wget='wget -c'
 
 # NPM
 alias ni='npm install --save'
