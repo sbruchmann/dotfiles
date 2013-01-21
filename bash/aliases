@@ -41,6 +41,7 @@ function take () {
 alias git='hub'
 alias gbc='git checkout -b'
 alias gbd='git branch -D'
+alias gbl='git branch -a'
 alias gci='git commit -vs'
 alias gcl='git clone'
 alias gcm='git checkout master'
