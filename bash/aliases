@@ -4,7 +4,7 @@
 alias sudo='sudo '
 
 # Applications
-alias st="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
+alias e="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
 
 function vlc () {
   open -a vlc $1 --args -Z --crop=16:10
