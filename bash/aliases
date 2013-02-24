@@ -73,12 +73,11 @@ alias nu='npm uninstall --save'
 alias nud='npm uninstall --save-dev'
 
 # Yeoman
-alias ym='yeoman'
-alias yi='ym init'
-alias yia='yi angular'
-alias yiac='yi angular:controller'
-alias yiad='yi angular:directive'
-alias yias='yi angular:service'
+alias yoa='yo angular'
+alias yoac='yo angular:controller'
+alias yoaf='yo angular:filter'
+alias yoad='yo angular:directive'
+alias yoas='yo angular:service'
 
 # Hide/show all desktop icons (useful when screencasting)
 alias hdf="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
