@@ -52,7 +52,7 @@ alias gpl='git pull'
 alias gpm='git push origin master'
 alias gpo='git push origin'
 alias gps='git push'
-alias gst='git status'
+alias gst='git status -s'
 
 function ggrep () {
   git grep $1 $(git log -g --pretty=format:%h -S$1)
