@@ -45,6 +45,12 @@ nmap <leader>w :w!<cr>
 " => VIM user interface
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+" Display line numbers
+set number
+
+" Hide EOF characters
+set nolist
+
 " Enable wild menu
 set wildmenu
 
