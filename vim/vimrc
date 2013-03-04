@@ -6,6 +6,14 @@
 "
 " Sections:
 "    -> General
+"    -> VIM user interface
+"    -> Colors and Fonts
+"    -> Files, Backup and Undo
+"    -> Visual Mode
+"    -> Indentation and Text
+"    -> Moving Around in Buffers, Tabs and Windows
+"    -> Mappings for Editing
+"    -> Helper Functions
 "
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
