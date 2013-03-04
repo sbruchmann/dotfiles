@@ -96,3 +96,30 @@ set foldcolumn = 1
 
 
 
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Colors And Fonts
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Enable syntax highlighting
+syntax enable
+
+try
+	colorscheme desert
+catch
+endtry
+
+set background=dark
+
+" Set extra options hwn running in GUI mode
+if has("gui_running")
+	set guioptions-=T
+	set guioptions-=e
+	set t_Co=256
+	set guitablabel=%M\ %t
+endif
+
+" Set UTF-8 as standard encoding 
+set encoding=utf8
+
+" Use unix as the standard file type
+fss=unix,dos,mac
