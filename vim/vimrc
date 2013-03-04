@@ -230,3 +230,32 @@ set laststatus=2
 
 " Format the status line
 set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Mappings For Editing
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Remap VIM 0 to first non-blank character
+map 0 ^
+
+" Move a line of text using ALT+[jk] or Command+[jk] on mac
+nmap <M-j> mz:m+<cr>`z
+nmap <M-k> mz:m-2<cr>`z
+vmap <M-k> :m'<-2<cr>`<my`<mzgv`yo`z
+
+if has("mac") || has("macunix")
+	nmap D-j <M-j>
+	nmap D-k <M-k>
+	vmap D-j <M-j>
+	vmap D-k <M-k>
+endif
+
+" Delete trailing white space on save
+func! DeleteTrailingWS()
+	exe "normal mz"
+	%s/\s\+$//ge
+	exe "normal `z"
+endfunc
+autocmd BufWrite *.css :call DeleteTrailingWS()
+autocmd BufWrite *.html :call DeleteTrailingWS()
+autocmd BufWrite *.js :call DeleteTrailingWS()
