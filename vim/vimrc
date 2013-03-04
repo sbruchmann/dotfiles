@@ -283,6 +283,7 @@ call vundle#rc()
 
 " Let Vundle manage Vundle
 Bundle 'gmarik/vundle'
+Bundle 'pangloss/vim-javascript'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Helper Functions
