@@ -106,7 +106,7 @@ set t_vb=
 set tm=500
 
 " Add a bit of extra margin to the left
-set foldcolumn = 1
+set foldcolumn=1
 
 
 
@@ -135,15 +135,12 @@ endif
 " Set UTF-8 as standard encoding
 set encoding=utf8
 
-" Use unix as the standard file type
-fss=unix,dos,mac
-
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Files, Backup and Undo
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Disable backup, since most files are in SVN anyway
-set nobackuo
+set nobackup
 set nowb
 set noswapfile
 
