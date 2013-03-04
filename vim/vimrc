@@ -133,3 +133,27 @@ set nobackuo
 set nowb
 set noswapfile
 
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Indentation and Text
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Be smart when using tabs
+set smarttab
+
+" Set tabwidth to 4
+set shiftwidth=4
+set tabstop=4
+
+" Linebreak on 120 characters
+set lbr
+set tw=120
+
+" Enable auto-indent
+set ai
+
+" Enable smart-indent
+set si
+
+" Wrap lines
+set wrap
