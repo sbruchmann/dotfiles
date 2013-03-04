@@ -29,9 +29,9 @@ set splitbelow
 set ruler
 set scrolloff=4
 set smarttab
-set shiftwidth=2
+set shiftwidth=4
 set title
-set tabstop=2
+set tabstop=4
 set wrap
 
 set wildmenu
