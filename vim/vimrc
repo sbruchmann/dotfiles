@@ -123,3 +123,13 @@ set encoding=utf8
 
 " Use unix as the standard file type
 fss=unix,dos,mac
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Files, Backup and Undo
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Disable backup, since most files are in SVN anyway
+set nobackuo
+set nowb
+set noswapfile
+
