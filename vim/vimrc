@@ -125,7 +125,7 @@ set encoding=utf8
 fss=unix,dos,mac
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Files, Backup and Undo
+" => Files, Backup and Undo
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Disable backup, since most files are in SVN anyway
@@ -160,7 +160,7 @@ set wrap
 
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Visual Mode
+" => Visual Mode
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Pressing * ore # in visual mode searches for the current selection
@@ -169,7 +169,7 @@ vnoremap <silent> * :call VisualSelection('f', '')<CR>
 vnoremap <silent> # :call VisualSelection('b', '')<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Moving around in buffers, tabs and windows
+" => Moving Around in Buffers, Tabs and Windows
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Map <Space> to / and Ctrl-<Space> to ? (backwards search)
@@ -232,7 +232,7 @@ set laststatus=2
 set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Mappings For Editing
+" => Mappings for Editing
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Remap VIM 0 to first non-blank character
