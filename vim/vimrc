@@ -284,6 +284,23 @@ call vundle#rc()
 " Let Vundle manage Vundle
 Bundle 'gmarik/vundle'
 Bundle 'pangloss/vim-javascript'
+Bundle 'airblade/vim-gitgutter'
+Bundle 'chip/vim-fat-finger'
+Bundle 'adinapoli/vim-markmultiple'
+Bundle 'kana/vim-smartinput'
+Bundle 'scrooloose/nerdtree'
+Bundle 'tpope/vim-surround'
+Bundle 'wincent/Command-T'
+Bundle 'myhere/vim-nodejs-complete'
+Bundle 'hwrod/interactive-replace'
+
+" Close autocompletion window automatically
+
+au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
+
+
+" Mappings for NERDTree
+map <leader>nt :NERDTree<cr>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Helper Functions
