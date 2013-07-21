@@ -42,11 +42,12 @@
 	[
 		"no_italic"
 	],
-	"font_size": 14.0,
+	"font_size": 21.0,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"SublimeCodeIntel"
 	],
 	"indent_guide_options":
 	[
@@ -63,9 +64,9 @@
 	],
 	"scroll_past_end": true,
 	"spell_check": false,
-	"tab_size": 2,
+	"tab_size": 4,
 	"theme": "Soda Dark.sublime-theme",
-	"translate_tabs_to_spaces": true,
+	"translate_tabs_to_spaces": false,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": false
 }
