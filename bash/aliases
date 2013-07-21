@@ -38,6 +38,10 @@ function take () {
   cd $1
 }
 
+function trash() {
+  mv $1 ~/.trash
+}
+
 # Git
 alias git='hub'
 alias gbc='git checkout -b'
