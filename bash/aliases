@@ -27,6 +27,7 @@ alias ll='ls -AFGhl'
 alias ls='ls -AFGh'
 alias md='mkdir -p'
 alias rm='rm -i'
+alias tree='tree -aC --noreport'
 
 # Show/hide hidden files in Finder
 alias shf="defaults write com.apple.Finder AppleShowAllFiles -bool true && killall Finder"
