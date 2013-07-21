@@ -293,6 +293,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'wincent/Command-T'
 Bundle 'myhere/vim-nodejs-complete'
 Bundle 'hwrod/interactive-replace'
+Bundle 'nathanaelkane/vim-indent-guides'
 
 " Close autocompletion window automatically
 
